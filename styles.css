@@ -1,0 +1,41 @@
+:root {
+    --dark-bg: #1f2937; 
+    --light-font: #e5e7eb; 
+    --extra-light-font: #f9faf8; 
+}
+
+body { 
+    margin: 0; 
+    width: 100vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--dark-bg);
+}
+
+.header {
+    margin: auto; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px; 
+    max-width: 80%; 
+}
+
+header p {
+    font-size: 24px;
+    font-weight: bold;  
+    color: var(--extra-light-font);
+}
+
+header a {
+    padding-left: 15px; 
+    font-size: 18px; 
+    color: var(--light-font);
+    text-decoration: none;
+}
+
+header a:hover {
+    color: var(--extra-light-font);
+}
