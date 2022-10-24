@@ -1,5 +1,5 @@
 :root {
-    --dark-bg: #1f2937; 
+    --dark: #1f2937; 
     --light-font: #e5e7eb; 
     --extra-light-font: #f9faf8; 
     --highlight: #3882f6; 
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: var(--dark-bg);
+    background-color: var(--dark);
 }
 
 .header {
@@ -49,8 +49,8 @@ header a:hover {
 
 #intro {
     margin: -1px 0 0; 
-    padding: 65px 0 100px; 
-    background-color: var(--dark-bg)
+    padding: 95px 0 130px; 
+    background-color: var(--dark)
 }
 
 .container-1 {
@@ -106,4 +106,54 @@ input[type=button] {
 
 input[type=button]:hover {
     background-color: #5291f5; 
+}
+
+#info {
+    padding: 20px 0 120px;
+    margin: auto; 
+    color: var(--dark);
+    text-align: center; 
+    width: 1000px;
+    max-width: 80%; 
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.visuals {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    flex-wrap: wrap;
+}
+
+.visuals > figure {
+    margin: 0; 
+}
+
+.thumbnail { 
+    margin-bottom: 10px; 
+    width: 160px; 
+    height: 160px;
+    background-color: white;
+    border: 4px solid var(--highlight);
+    border-radius: 10px; 
+}
+
+.thumbnail .img {
+    width: 160px; 
+    height: 160px; 
+    object-fit: cover; 
+    border-radius: 6px; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.caption {
+    margin: auto; 
+    width: 150px; 
+    color: var(--dark);
+    opacity: 90%;
 }
